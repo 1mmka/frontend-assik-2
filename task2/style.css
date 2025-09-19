@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(120deg, #e0eafe, 0%, #cfdef3 100%);
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px 28px 28px 28px;
+    border-radius: 16px;
+}
+
+h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #1e3c72;
+    color: white;
+    padding: 24px 0 16px 0;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #1e3c72;
+    font-size: 1.4em;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h3 {
+    color: #555;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+p {
+    color: #222;
+    font-size: 1.08em;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.portrait {
+    display: block;
+    margin: 0 auto 18px auto;
+    max-width: 220px;
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #e0eafc;
+}
+
+ol {
+    margin-left: 1.2em;
+    margin-bottom: 18px;
+    padding-left: 1.2em;
+    color: #1e3c72;
+    font-size: 1em;
+}
+
+ol li {
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+
+ul {
+    margin-left: 1.2em;
+    margin-bottom: 18px;
+    padding-left: 1.2em;
+    color: #2d5c88;
+    font-size: 1em;
+}
+
+ul li {
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+
+.links {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.links a {
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 8px;
+}
+
+.links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background: #1e3c72;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    margin: 0 15em;
+}
+
+.btn:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
