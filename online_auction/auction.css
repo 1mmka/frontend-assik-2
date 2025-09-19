@@ -5,11 +5,11 @@ body {
     overflow: hidden;
 }
 
+/* HEADER */
 .site-header {
     background: #ccc;
-    display: flex;
-    align-items: center;
     padding: 24px 40px 12px 40px;
+    overflow: hidden; /* чтобы обтекание не ломало блок */
 }
 
 .logo-block {
@@ -17,6 +17,7 @@ body {
     height: 75px;
     background: #5a40e2;
     border-radius: 50%;
+    float: left; /* логотип слева */
     margin-right: 32px;
 }
 
@@ -24,14 +25,15 @@ body {
     font-size: 2.2em;
     font-weight: 500;
     color: #222;
+    line-height: 75px; /* выравниваем по вертикали с логотипом */
 }
 
+/* NAVBAR */
 .navbar {
     background: #ccc;
-    display: flex;
-    gap: 36px;
     padding: 0 0 18px 170px;
     font-size: 1.3em;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -39,6 +41,8 @@ body {
     text-decoration: none;
     font-family: Georgia, serif;
     font-weight: 500;
+    margin-right: 36px; /* вместо gap */
+    display: inline-block;
     transition: color 0.2s;
 }
 
@@ -46,6 +50,7 @@ body {
     color: #5a40e2;
 }
 
+/* MAIN CONTENT */
 .main-content {
     background: #fff;
     margin: 0 auto;
@@ -54,9 +59,8 @@ body {
 }
 
 .main-row {
-    display: flex;
-    gap: 40px;
     padding: 0 60px 32px 60px;
+    overflow: hidden;
 }
 
 .main-title {
@@ -64,6 +68,7 @@ body {
     font-family: Georgia, serif;
     font-weight: bold;
     width: 320px;
+    float: left;
 }
 
 .main-desc {
@@ -72,12 +77,13 @@ body {
     max-width: 600px;
     line-height: 1.6;
     padding-top: 12px;
+    float: left;
+    margin-left: 40px; /* вместо gap */
 }
 
+/* LOTS SECTION */
 .lots {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+    text-align: center; /* для выравнивания карточек */
     margin-top: 24px;
 }
 
@@ -88,6 +94,9 @@ body {
     width: 220px;
     text-align: left;
     box-sizing: border-box;
+    display: inline-block; /* чтобы стояли рядом */
+    margin: 0 20px; /* вместо gap */
+    vertical-align: top;
 }
 
 .lot-img {
@@ -111,9 +120,11 @@ body {
     color: #444;
 }
 
+/* FOOTER */
 .site-footer {
     background: #aaa;
     padding: 24px 40px 35px 40px;
+    overflow: hidden;
 }
 
 .footer-left {
@@ -121,6 +132,7 @@ body {
     font-family: Georgia, serif;
     font-weight: 100;
     margin-top: 10px;
+    float: left;
 }
 
 .footer-center {

@@ -83,8 +83,6 @@ tbody tr:nth-child(odd) {
 }
 
 .radio-group {
-    display: flex;
-    gap: 16px;
     align-items: center;
     margin-bottom: 10px;
 }
